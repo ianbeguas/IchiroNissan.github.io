@@ -1,0 +1,62 @@
+*
+{
+    margin: 0;
+    padding: 0;
+}
+.img-banner
+{
+        background-image: url(https://www.nissanusa.com/content/dam/Nissan/us/vehicles/kicks/2024/overview/2024-nissan-kicks-orange.jpg);
+        background-size: cover;
+        background-position: center right;
+        background-repeat: no-repeat;
+        width: 100%;
+        height: 750px;
+        display: flex;
+        align-items: flex-end;
+        padding-top: 20px;
+}
+.description
+{
+    padding-top: 5%;
+    
+}
+.text-ban
+{
+    font-weight: 600;
+    font-size: 35px;
+    padding-left: 50px;
+}
+.text-dan
+{
+    padding-left: 50px;
+}
+.img-description
+{
+    padding-right: 50px;
+    
+}
+
+
+/* responsive area */
+
+@media (max-width: 768px) {
+    .img-banner {
+        height: 250px;
+        width: 100%;
+    }
+
+    .responsive-image {
+        max-width: 100%;
+        height: auto;
+    }
+    
+    
+    .text-ban {
+        font-size: 25px;
+    }
+}
+
+@media (min-width:600px) { 
+
+}
+    
